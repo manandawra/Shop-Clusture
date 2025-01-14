@@ -52,7 +52,7 @@ def main():
     print("Welcome to Shop Registration")  
     shop_details = register_shop()  
     save_shop_details(shop_details)  
-    print("Shop has been registered successfully!!")  
+    print("Shop has been registered successfully!")  
   
 if __name__ == "__main__":  
     main()  
