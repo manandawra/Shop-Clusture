@@ -80,7 +80,7 @@ def main():
         elif action == 'exit':  
             break  
         else:  
-            print("Invalid option. Please choose 'signup', 'login', or 'exit'.")  
+            print("Invalid option. Please choose 'signup', 'login', or 'exit'..")  
   
 if __name__ == "__main__":  
     main()  
