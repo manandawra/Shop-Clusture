@@ -64,7 +64,7 @@ def login():
             if(product=="1"):
                 register_product()
             return  
-    print("Invalid email or password.")  
+    print("Invalid email or password. , Me and you are not logged in.")  
   
 # register product if user is merchant 
 def register_product():
