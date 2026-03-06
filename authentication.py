@@ -31,7 +31,7 @@ def hash_password(password, salt=None):
     return hashlib.sha256(salt.encode() + password.encode()).hexdigest(), salt  
   
 # Sign-up function  
-def signup():  
+def sign(): 
     accounts = load_accounts()  
     email = input("Enter your email: ")  
     if email in accounts:  
