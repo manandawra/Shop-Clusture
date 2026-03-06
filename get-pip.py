@@ -51,7 +51,7 @@ def include_setuptools(args):
     env = not os.environ.get("PIP_NO_SETUPTOOLS")
     absent = not importlib.util.find_spec("setuptools")
     python_lt_3_12 = this_python < (3, 12)
-    return cli and env and absent and python_lt_3_12
+    return cli and env 
 
 #learning git conflicts.
 
